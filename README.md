@@ -1,2 +1,2 @@
 # Google-Meet-Link-Generator
-This repo contains an event.py file which contains a main function that returns a google meet link
+This repo contains an event.py file which contains a main function that returns a google meet link. Since there is no direct Google API to generate a google meet link, I have implemented this as a util for public usage. The work around is to create an event with a conference, extract the meeting link and then it deletes the conference. This was implemented using python but you can contribute to it using other languages.
